@@ -369,7 +369,7 @@ html {
   object-position: 50% 0%;
   background-position: 50% 50%;
   width: 284px;
-  background-image: url("images/0c5e885f4b1a20bdd3aa724c498eddb2df2a9b0158844cf659edad54a5e872c25bba88eaecc207cc7d069193a2d1492625299bd1d5af54e6e52f22_1280.png");
+  background-image: url("images/Neha.jpeg");
   margin: 0 auto;
 }
 
@@ -398,7 +398,7 @@ html {
   object-position: 100% 0%;
   background-position: 50% 50%;
   width: 285px;
-  background-image: url("images/0c5e885f4b1a20bdd3aa724c498eddb2df2a9b0158844cf659edad54a5e872c25bba88eaecc207cc7d069193a2d1492625299bd1d5af54e6e52f22_1280.png");
+  background-image: url("images/Twinkle.jpeg");
   margin: 35px auto 0;
 }
 
@@ -409,6 +409,25 @@ html {
 }
 
 .u-section-3 .u-text-7 {
+  font-style: normal;
+  margin: 16px 30px 0;
+}
+.u-section-3 .u-image-4 {
+  height: 285px;
+  object-position: 100% 0%;
+  background-position: 50% 50%;
+  width: 285px;
+  background-image: url("images/Aman.jpeg");
+  margin: 35px auto 0;
+}
+
+.u-section-3 .u-text-7 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 31px 30px 0;
+}
+
+.u-section-3 .u-text-8 {
   font-style: normal;
   margin: 16px 30px 0;
 }
