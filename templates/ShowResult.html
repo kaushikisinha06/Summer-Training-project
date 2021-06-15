@@ -22,8 +22,9 @@
 		"url": "index.html",
 		"logo": "images/Techovidlogo.png"
 }</script>
-	  <script type = "text/javascript">  
-         function myfunction(chance) { 
+	  <script type = "text/javascript"> 
+         var name = {{chance}} 
+         function myfunction() { 
 		 if(chance<20){
 			 alert("Low Risk!");
 		 }
@@ -93,7 +94,7 @@
 </g></svg>
                   </div>
                   <h3 class="u-align-center u-text u-text-2">{{chance}} </h3>
-		<button onclick="myfunction(chance)">RISK</button> 
+		<input type = "button" value = "Risk" onclick = "myfunction();" />   
 			
                   <a href="/" data-page-id="107405493" class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1">evaluate again</a>
                 </div>
