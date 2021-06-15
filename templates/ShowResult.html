@@ -23,13 +23,16 @@
 		"logo": "images/Techovidlogo.png"
 }</script>
 	  <script type = "text/javascript">  
-         function myfunction(chance) { 
-		 if(chance<20)
+         function myfunction({{chance}}) { 
+		 if({{chance}}<20){
 			 alert("Low Risk!");
-		 else if(chance >21 && chance<50)
+		 }
+		 else if({{chance}}>21 && {{chance}}<50){
 			 alert("Moderate Risk!");
-		 else
+		 }
+		 else{
 			 alert("High Risk!");
+		 }
              
          }  
 </script>  
@@ -90,7 +93,7 @@
 </g></svg>
                   </div>
                   <h3 class="u-align-center u-text u-text-2">{{chance}} </h3>
-		<input type = "button" onclick = "myfunction(chance)" value = "Risk Level"> 
+		<input type = "button" onclick = "myfunction({{chance}})" value = "Risk Level"> 
 			
                   <a href="/" data-page-id="107405493" class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1">evaluate again</a>
                 </div>
