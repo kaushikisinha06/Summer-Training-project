@@ -22,21 +22,21 @@
 		"url": "index.html",
 		"logo": "images/Techovidlogo.png"
 }</script>
-	  <script type = "text/javascript"> 
-         var name = {{chance}} 
-         function myfunction() { 
-		 if(chance<20){
+<script type ="text/javascript">{
+        var x=document.getElementbyId("demo");
+        function myfunction(x){
+           if(x<20){
 			 alert("Low Risk!");
 		 }
-		 else if(chance>21 && chance<50){
+		 else if(x>21 && x<50){
 			 alert("Moderate Risk!");
 		 }
 		 else{
 			 alert("High Risk!");
 		 }
-             
-         }  
-</script>  
+               }
+        </script>
+	  
     <meta property="og:title" content="ShowResult">
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#3a6ca5">
@@ -94,7 +94,7 @@
 </g></svg>
                   </div>
                   <h3 class="u-align-center u-text u-text-2">{{chance}} </h3>
-		<input type = "button" value = "Risk" onclick = "myfunction();" />   
+		<input type = "button" value = "Risk level" onclick = "myfunction();" />   
 			
                   <a href="/" data-page-id="107405493" class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1">evaluate again</a>
                 </div>
