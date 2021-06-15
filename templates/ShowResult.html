@@ -22,6 +22,17 @@
 		"url": "index.html",
 		"logo": "images/Techovidlogo.png"
 }</script>
+	  <script type = "text/javascript">  
+         function myfunction(chance) { 
+		 if(chance<20)
+			 alert("Low Risk!");
+		 else if(chance >21 && chance<50)
+			 alert("Moderate Risk!");
+		 else
+			 alert("High Risk!");
+             
+         }  
+</script>  
     <meta property="og:title" content="ShowResult">
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#3a6ca5">
@@ -70,7 +81,7 @@
                 
                 
               </span>
-                  <h2 class="u-align-center u-text u-text-1">Your Covid-19 Risk Chance:</h2>
+                  <h2 class="u-align-center u-text u-text-1">Your Covid-19 Risk Chance(in percentage):</h2>
                   <div class="u-border-3 u-border-grey-dark-1 u-shape u-shape-bottom u-shape-right u-shape-1"></div>
                   <div class="u-border-3 u-border-grey-dark-1 u-shape u-shape-left u-shape-top u-shape-2"></div>
                   <div class="u-shape u-shape-svg u-text-palette-1-base u-shape-3">
@@ -78,7 +89,9 @@
                     <svg class="u-svg-content" viewBox="0 0 140 160" x="0px" y="0px" id="svg-7c69"><g><polygon points="0,0 140,80 0,160 	"></polygon>
 </g></svg>
                   </div>
-                  <h3 class="u-align-center u-text u-text-2">{{chance}}</h3>
+                  <h3 class="u-align-center u-text u-text-2">{{chance}} </h3>
+		<input type = "button" onclick = "myfunction(chance)" value = "Risk Level"> 
+			
                   <a href="/" data-page-id="107405493" class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1">evaluate again</a>
                 </div>
               </div>
@@ -90,7 +103,7 @@
     
     
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-aeb0"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">TECHOVID Team Project.</p>
+        <p class="u-small-text u-text u-text-variant u-text-1">BIT PATNA SUMMER TRAINING TEAM PROJECT</p>
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
       <a class="u-link" href="" target="_blank">
