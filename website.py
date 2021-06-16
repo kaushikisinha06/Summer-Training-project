@@ -33,7 +33,7 @@ def evaluate():
         onSetDelay = (datetime.today() - datetime.strptime(request.args.get('dateOnSet'), "%Y-%m-%d")).total_seconds() /86400
         
         deathchance = get_death_chance(age, gender, onSetDelay, agemodel, age_rmse_and_degree, delaymodel, [1,0.13], male, female)
-        return render_template('ShowResult.html', chance=str(int(deathchance * 10)))
+        return render_template('ShowResult.html', chance=str(int(deathchance)))
 
     except Exception as e:
         traceback.print_exc()
